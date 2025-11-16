@@ -1,0 +1,179 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* #region navigation */
+
+.logo-main {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  list-style-type: none;
+}
+:hover.nav-link {
+  color: #404bbf;
+}
+
+:focus.nav-link {
+  color: #404bbf;
+}
+
+/* #endregion navigation */
+
+.adress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #434455;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.adress-a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #434455;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.adresss {
+  font-style: normal;
+}
+
+:hover.adress-a {
+  color: #404bbf;
+}
+
+:focus.adress-a {
+  color: #404bbf;
+}
+
+/* #region Effective Solutions */
+.title-first {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.but-services {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+:hover.but-services {
+  background-color: #404bbf;
+}
+
+:focus.but-services {
+  background-color: #404bbf;
+}
+
+.effective-sol {
+  background-color: #2e2f42;
+}
+/* #endregion Effective Solutions */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.title-third {
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.parag {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.our-team {
+  background: var(--cloud);
+}
+
+footer {
+  background: var(--navy-blue);
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.foot-p {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.studio-sec {
+  color: #f4f4fd;
+}
+
+.our-li {
+  background-color: #ffffff;
+}
